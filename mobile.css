@@ -218,4 +218,7 @@
     .javascript{
       content: url('https://api.iconify.design/akar-icons/javascript-fill.svg?color=%23ccc&height=100');
     }
+    .address{
+      font-size: 15px
+    }
   }
