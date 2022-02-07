@@ -1,0 +1,124 @@
+.picmyself {
+    padding-top: 100px;
+    display: flex;
+  }
+  
+  .picbox1 {
+    width: 50%;
+    display: grid;
+    justify-content: center;
+  }
+  
+  .aboutmepic1 {
+    border-radius: 80px;
+  }
+  
+  .myselfsentence {
+    display: grid;
+  
+    width: 50%;
+  }
+  
+  .iamatsuya {
+    color: #FFF;
+    font-size: 45px;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .iamatsuya-sent {
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #FFF;
+    line-height: 2;
+  }
+  
+  .educar {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+  
+  }
+  
+  .edu {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 100px 0px 0px;
+  }
+  
+  .car {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 0px 0px 100px;
+  }
+  
+  .education,.career {
+    font-size: 45px;
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .aboutmepic2,.aboutmepic3 {
+    border-radius: 80px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  
+  .year, .edu-sent, .edu-sent2, .car-sent, .car-sent2 {
+    color: #FFF;
+  }
+  
+  .edu-sent, .edu-sent2, .car-sent, .car-sent2 {
+    line-height: 1.5;
+  }
+  
+  .educar-box {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .educar-box1, .educar-box2 {
+    padding: 15% 0px 0px 0px;
+  }
+  
+  .line {
+    width: 4px;
+    margin: 0.4rem;
+    background-color: #FFF;
+  }
+  
+  .skill {
+    font-size: 45px;
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon-box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .html, .css, .javascript {
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .html {
+    content: url('https://api.iconify.design/akar-icons/html-fill.svg?color=%23ccc&height=140');
+  }
+  
+  .css {
+    content: url('https://api.iconify.design/akar-icons/css-fill.svg?color=%23ccc&height=140');
+  }
+  
+  .javascript {
+    content: url('https://api.iconify.design/akar-icons/javascript-fill.svg?color=%23ccc&height=140');
+  }
+  

@@ -1,0 +1,173 @@
+@import url('../all.css/menu.css');    /*menu*/
+@import url('../all.css/home.css');    /*home*/
+@import url('../all.css/aboutme.css');     /*anoutme*/
+@import url('../all.css/project.css'); /*project*/
+@import url('../all.css/contactme.css'); /*contatcme*/
+a {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+html {
+  font-family: verdana, sans-serif;
+
+  line-height: 1;
+}
+
+a {
+  color: #FFF;
+}
+
+* {
+  float: none;
+  position: static;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+
+tr:hover {
+  background: #fcc;
+}
+
+body {
+  background-color: #000;
+}
+
+b {
+  color: #fff;
+  font-family: bold;
+  font-size: 25px;
+}
+
+footer {
+  padding: 1.5em 0;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+}
+@import url('mobile.css') screen and (max-width:480); 
+
+@media screen and (max-width:480px) {
+
+  img {
+    max-width: 100%;
+    vertical-align: middle;
+  }
+
+/* onle index */
+ 
+
+  .big-name,.about-me,.project{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    padding: 30px 0px 30px 0px;
+  }
+
+  .developer {
+    font-size: 25px;
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+  }
+  .bignamerole, .xxbtn {
+    width: 100%;
+    display: grid;
+  }
+  .contents {
+    width: 90%;
+    margin-top: 80px;
+    margin-left: 30px;
+    clear: both;
+  }
+
+  .contents p {
+    margin-bottom: 1.5em;
+    text-align: left;
+  }
+
+  .class1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10%;
+  }
+  .class2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+  }
+  .class3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+  }
+ /* INTORO*/
+  .bignamerole {
+    order: 1;
+  }
+  .big-name{
+    order: 2;
+  }
+  .developer{
+    order:2;
+  }
+
+  .pic{
+    /* frist pic*/
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 75%;
+    margin-right: 0%;
+  }
+  .pic2{
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    width:75%;
+    height: 155px;
+    margin-right: 0%;
+  }
+  .pic3{
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 75%;
+    margin-right: 0%;
+
+  }
+
+  .pic-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .xxbtn {
+    order: 1;
+  }
+
+  .clickhere {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+  }
+}
+ 
+
+
