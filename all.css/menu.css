@@ -1,0 +1,69 @@
+.header {
+    align-items: baseline;
+    background: rgba(63, 62, 62, 0.116);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 95%;
+    padding: 30px 40px 0;
+    margin: 0px 10px 10px 10px;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .name-menu {
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .name {
+    width: 100%;
+    font-size: 40px;
+    color: #FFF;
+    display: flex;
+  }
+  
+  .menubar {
+    display: flex;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+  }
+  
+  .git {
+    content: url('https://api.iconify.design/akar-icons/github-fill.svg?color=%23ccc&height=45');
+  }
+  
+  .insta {
+    content: url('https://api.iconify.design/akar-icons/instagram-fill.svg?color=%23ff9a62&height=45');
+  }
+  
+  .mail {
+    content: url('https://api.iconify.design/bytesize/mail.svg?color=%23ccc&height=45');
+  }
+  
+  .menu {
+    content: url('https://api.iconify.design/bytesize/menu.svg?color=%23ccc&height=45');
+  }
+  
+  .git, .insta, .mail, .menu {
+    padding: 0px 20px 0px 0px;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+  
+  .menu:hover {
+    opacity: 0.6;
+  }
+  
+  .mail:hover {
+    opacity: 0.6;
+  }
+  
+  .insta:hover {
+    opacity: 0.6;
+  }
+  
+  .git:hover {
+    opacity: 0.6;
+  }

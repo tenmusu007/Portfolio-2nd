@@ -1,0 +1,41 @@
+.contact-name {
+    font-size: 90px;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+  }
+  
+  .address {
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-pic {
+    border-radius: 80px;
+  }
+  
+  .contact-me {
+    padding-top: 100px;
+    display: flex;
+  }
+  
+  .contact-mebox {
+    width: 50%;
+    display: grid;
+    justify-content: center;
+  }
+  .contact-insta{
+    display: none;
+  }
