@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-family: 'Playfair Display', serif;;
+}
+header{
+    width: 350px;
+    margin: 0 auto;
+    background-color:#1A1B21;
+}
+.header-img{
+    object-fit: cover;
+    width: 350px;
+    height: 300px;
+}
+.header-job{
+    color: #F3BF99;
+    padding: 1rem 1rem 0 1rem;
+}
+.header-btn-box{
+    padding: 1rem;
+}
+.header-eamil, .header-linkedin{
+    display: flex;
+    justify-content:center;
+    margin: 10px;
+    align-items: center;
+}
+.header-eamil{
+    background-color: darkgray;
+    color: black;
+    padding: 2% 4%;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.header-linkedin{
+    background-color: white;
+    color: black;
+    padding: 2% 4%;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.eamil ,.linkedin{
+    padding-left: 5px;
+    font-size: 15px;
+}
+.header-btn-box{
+    display: flex;
+    justify-content:center ;
+}
+
+
+
+/* About & intrerst*/ 
+
+.about-box,.interest-box{
+    background-color: #1A1B21;
+    width: 350px;
+    margin: 0 auto;
+    text-align: left;
+}
+.about-title, .interest-title{
+    padding: 0 2rem 1rem 2rem;
+    display: inline-block;
+    font-style: italic;
+}
+.about-txt, .interes-txt{
+    font-size: 15px;
+    text-transform: none;
+    padding: 0 2rem 2rem 2rem;
+    font-style: oblique;
+}

@@ -1,0 +1,83 @@
+.container {
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.back-start {
+    font-size: 15px;
+    background-color: aqua;
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+}
+
+.sent {
+    padding: 30px;
+}
+
+.box-modal {
+    display: none;
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.box-modal.active {
+    display: block;
+}
+
+.box-modal h2 {
+    text-align: center;
+    padding: 60px;
+}
+
+.choice {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tag1-box, .tag2-box, .tag3-box {
+    background-color: aquamarine;
+    display: inline-grid;
+    border: 1px solid;
+}
+
+.tab-sent-box, .tab-sent-box1, .tab-sent-box2 {
+    background-color: beige;
+}
+
+.tab-sent-box.active {
+    display: block;
+}
+.tab-sent-box {
+    display: none;
+}
+
+.tab-sent-box1.active {
+    display: block;
+}
+
+.tab-sent-box1 {
+    display: none;
+}
+
+.tab-sent-box2.active {
+    display: block;
+}
+
+.tab-sent-box2 {
+    display: none;
+}
+
+.pic,.pic1,.pic2{
+    width: 100px;
+}
