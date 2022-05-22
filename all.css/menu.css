@@ -39,11 +39,17 @@
   }
   
   .mail {
-    content: url('https://api.iconify.design/bytesize/mail.svg?color=%23ccc&height=45');
+    /* content: url('https://api.iconify.design/bytesize/mail.svg?color=%23f8f8f8&height=45'); */
+    /* content: url('https://api.iconify.design/bytesize/mail.svg?color=white&height=45'); */
+    /* content: url('https://api.iconify.design/bytesize/mail.svg?color=%23ccc&height=45'); */
+    content: url('https://api.iconify.design/codicon/mail.svg?color=%23ccc&height=45');
   }
   
   .menu {
-    content: url('https://api.iconify.design/bytesize/menu.svg?color=%23ccc&height=45');
+    /* content: url('https://api.iconify.design/bytesize/menu.svg?color=%23ccc&height=45'); */
+    /* content: url('https://api.iconify.design/bytesize/menu.svg?color=%23ccc&height=45'); */
+    /* content: url('https://api.iconify.design/bytesize/menu.svg?color=%23ccc&height=45'); */
+    content: url('https://api.iconify.design/clarity/menu-line.svg?color=%23ccc&height=45');
   }
   
   .git, .insta, .mail, .menu {
